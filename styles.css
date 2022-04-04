@@ -31,7 +31,7 @@ body {
     
     /*Navigation*/
     .nav-main {
-    font-size: 17px;
+    font-size: 20px;
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -76,8 +76,36 @@ body {
 
  
  /*SHOCASE*/
+ hr {
+     margin:10px;
+ }
  .showcase {
      width: 100%;
      height:550px;
-     background:(C:\Users\Valentina\Desktop) no-repeat center/cover
- }
+     background:url("./img/mexican.jpg") no-repeat center/cover;
+padding-bottom:50px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-end;
+   }
+   .btn {
+       cursor: pointer;
+       display: inline-block;
+       border: 0;
+       font-weight:bold;
+       padding:10px 20px;
+       background: gray;
+       color: purple;
+       font-size:15px;
+       border:2px solid;
+       margin:10px 0px;
+
+   }
+.btn:hover{
+    opacity: .7;
+}
+.showcase h2,
+shocase p {
+    margin-bottom: 10px;
+}
