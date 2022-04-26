@@ -82,8 +82,9 @@ body {
  .showcase {
      width: 100%;
      height:550px;
-     background:url("./img/mexican.jpg") no-repeat center/cover;
+     background:url("./img/donut.jpg.lnk") no-repeat center/cover;
 padding-bottom:50px;
+margin-bottom: 20px;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -108,4 +109,18 @@ justify-content: flex-end;
 .showcase h2,
 shocase p {
     margin-bottom: 10px;
+}
+/*NEWS CARDS */
+.news-cards {
+    display: grig;
+    grid-template-columns:(repeat 4, 1fr);
+gap:25px;
+margin:10px 0;
+    
+}
+
+.news-cards img {
+    width:100px;
+    height:150px;
+
 }
